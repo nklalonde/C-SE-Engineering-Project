@@ -1,0 +1,11 @@
+D:\LMS\LMS\bin\Debug\LMS.exe.config
+D:\LMS\LMS\bin\Debug\LMS.exe
+D:\LMS\LMS\bin\Debug\LMS.pdb
+D:\LMS\LMS\obj\Debug\LMS.csprojAssemblyReference.cache
+D:\LMS\LMS\obj\Debug\LMS.Main.resources
+D:\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+D:\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+D:\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
+D:\LMS\LMS\obj\Debug\LMS.exe
+D:\LMS\LMS\obj\Debug\LMS.pdb
+D:\LMS\LMS\obj\Debug\LMS.Login_Window.resources
