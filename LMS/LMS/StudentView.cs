@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace LMS
 {
-    public partial class Main : Form
+    public partial class StudentView : Form
     {
-        public Main()
+        public StudentView()
         {
             InitializeComponent();
         }
 
-        private void Main_Load(object sender, EventArgs e)
+        private void tabPage1_Click(object sender, EventArgs e)
         {
 
         }

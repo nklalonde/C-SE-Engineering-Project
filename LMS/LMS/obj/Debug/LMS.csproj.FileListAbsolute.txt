@@ -9,3 +9,15 @@ D:\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
 D:\LMS\LMS\obj\Debug\LMS.exe
 D:\LMS\LMS\obj\Debug\LMS.pdb
 D:\LMS\LMS\obj\Debug\LMS.Login_Window.resources
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\bin\Debug\LMS.exe
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\bin\Debug\LMS.pdb
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.csprojAssemblyReference.cache
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.Login_Window.resources
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.AdminView.resources
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.StudentView.resources
