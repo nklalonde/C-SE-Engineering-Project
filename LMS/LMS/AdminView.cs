@@ -30,19 +30,19 @@ namespace LMS
         private void button2_Click(object sender, EventArgs e)
         {   
             // Remove tabs
-            tabControl1.TabPages.Remove(tabControl1.SelectedTab); 
+            Admin_Tab_Control.TabPages.Remove(Admin_Tab_Control.SelectedTab); 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
                // Revmove all tab pages
-            tabControl1.TabPages.Clear();
+            Admin_Tab_Control.TabPages.Clear();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             TabPage tpage = new TabPage();
-            tabControl1.TabPages.Add(tpage);
+            Admin_Tab_Control.TabPages.Add(tpage);
             // can assign name of tab pages here
         }
 
@@ -52,6 +52,61 @@ namespace LMS
         }
 
         private void tabPage1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_A_Log_Out_Click(object sender, EventArgs e)
+        {
+            // Return to Login Screen
+            this.Hide();
+            Login_Window lw = new Login_Window(); 
+            lw.Show();
+        }
+
+        private void Add_Course_Button_Click(object sender, EventArgs e)
+        {
+            string cname = Txt_Course.Text;
+            Cb_Courses.Items.Add(cname);
+        }
+
+        private void txt_Course_TextChanged(object sender, EventArgs e)
+        {
+            // text box for course name
+        }
+
+        private void txt_Course_ID_TextChanged(object sender, EventArgs e)
+        {
+            // text box for course ID
+        }
+
+        private void txt_Course_Num_TextChanged(object sender, EventArgs e)
+        {
+            // Text box for course number
+        }
+
+        private void txt_Professor_TextChanged(object sender, EventArgs e)
+        {
+            // Text box for professor
+        }
+
+        private void cb_Courses_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // For listing currently entered courses and selecting for
+           // updaing and deleting
+        }
+
+        private void Professors_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }

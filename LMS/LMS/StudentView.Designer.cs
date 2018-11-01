@@ -80,6 +80,7 @@
             this.Font = new System.Drawing.Font("Franklin Gothic Heavy", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentView";
             this.Student_Tab_Control.ResumeLayout(false);
             this.ResumeLayout(false);

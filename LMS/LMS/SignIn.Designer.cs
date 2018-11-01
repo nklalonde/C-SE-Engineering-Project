@@ -179,6 +179,7 @@
             this.Controls.Add(this.Username_Textbox);
             this.MinimumSize = new System.Drawing.Size(800, 0);
             this.Name = "Login_Window";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Window";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
