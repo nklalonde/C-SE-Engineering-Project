@@ -1,6 +1,6 @@
 ﻿namespace LMS
 {
-    partial class StudentView
+    partial class Student
     {
         /// <summary>
         /// Required designer variable.
@@ -68,7 +68,7 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // StudentView
+            // Student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 34F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,9 +79,10 @@
             this.Controls.Add(this.Student_Tab_Control);
             this.Font = new System.Drawing.Font("Franklin Gothic Heavy", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "StudentView";
+            this.Name = "Student";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StudentView";
+            this.Text = "Student";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Student_Tab_Control.ResumeLayout(false);
             this.ResumeLayout(false);
 

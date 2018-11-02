@@ -30,20 +30,36 @@ namespace LMS
         
         private void button1_Click(object sender, EventArgs e)
         { 
-
             /* Log in button, need to check username & password, 
               send to the correct view. Probably a if/ case statement*/
+
             this.Hide();    // hides sign in sheet
-            //if (Username_Textbox == aname && Password_Textbox == 123)
-            //{
-                AdminView aa = new AdminView(); // link to professor view
-                aa.Show();  // show administrator view 
-            //}
-            /*else if (Username_Label == sname && Password_Textbox == 123)
+
+         
+           if (Username_Textbox.Text == "sname")
+           {
+                if (Password_Textbox.Text == "s123")
+                {
+                    Student ss = new Student(); // link to student view
+                    ss.Show();  // show professor view
+                }
+            }
+            else if (Username_Textbox.Text == "aname")
             {
-                StudentView ss = new StudentView(); // link to student view
-                ss.Show();  // show professor view
-            }*/
+                if (Password_Textbox.Text == "a123")
+                {
+                    AdminView aa = new AdminView(); // link to student view
+                    aa.Show();  // show professor view
+                }
+            }
+            else if (Username_Textbox.Text == "pname")
+            {
+                if (Password_Textbox.Text == "p123")
+                {
+                   ProfessorView pp = new ProfessorView(); // link to student view
+                    pp.Show();  // show professor view
+                }
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)

@@ -19,5 +19,6 @@ C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debu
 C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
 C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.exe
 C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.Student.resources
 C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.AdminView.resources
-C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.StudentView.resources
+C:\Users\Nina Lalonde\Documents\GitHub\C-SE-Engineering-Project\LMS\LMS\obj\Debug\LMS.ProfessorView.resources

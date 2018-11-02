@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LMS
 {
-    public partial class StudentView : Form
+    public partial class Student : Form
     {
-        public StudentView()
+        public Student()
         {
             InitializeComponent();
         }
