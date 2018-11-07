@@ -30,20 +30,17 @@
         {
             this.Tab_Professor = new System.Windows.Forms.TabControl();
             this.Tab_Course1 = new System.Windows.Forms.TabPage();
-            this.Tab_Course2 = new System.Windows.Forms.TabPage();
-            this.Btn_P_Log_Out = new System.Windows.Forms.Button();
-            this.Tab_Course3 = new System.Windows.Forms.TabPage();
-            this.Tab_Course4 = new System.Windows.Forms.TabPage();
-            this.Btn_C1_Delete_Grade = new System.Windows.Forms.Button();
-            this.Btn_C1_Modify_Grade = new System.Windows.Forms.Button();
-            this.Btn_C1_Add_Grade = new System.Windows.Forms.Button();
+            this.Txt_C1_Grade = new System.Windows.Forms.TextBox();
+            this.Lbl_C1_SGrade = new System.Windows.Forms.Label();
+            this.Txt_C1_SName = new System.Windows.Forms.TextBox();
+            this.Lbl_C1_SName = new System.Windows.Forms.Label();
             this.lbl_C1_SList = new System.Windows.Forms.Label();
             this.Cb_C1_SList = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.Txt_C1_SName = new System.Windows.Forms.TextBox();
-            this.Lbl_C1_SName = new System.Windows.Forms.Label();
-            this.Txt_C1_Grade = new System.Windows.Forms.TextBox();
-            this.Lbl_C1_SGrade = new System.Windows.Forms.Label();
+            this.Btn_C1_Delete_Grade = new System.Windows.Forms.Button();
+            this.Btn_C1_Modify_Grade = new System.Windows.Forms.Button();
+            this.Btn_C1_Add_Grade = new System.Windows.Forms.Button();
+            this.Tab_Course2 = new System.Windows.Forms.TabPage();
             this.Txt_C2_Grade = new System.Windows.Forms.TextBox();
             this.Lbl_C2_Grade = new System.Windows.Forms.Label();
             this.Txt_C2_SName = new System.Windows.Forms.TextBox();
@@ -54,6 +51,7 @@
             this.Btn_C2_Delete_Grade = new System.Windows.Forms.Button();
             this.Btn_C2_Modify_Grade = new System.Windows.Forms.Button();
             this.Btn_C2_Add_Grade = new System.Windows.Forms.Button();
+            this.Tab_Course3 = new System.Windows.Forms.TabPage();
             this.Txt_C3_Grade = new System.Windows.Forms.TextBox();
             this.Lbl_C3_Grade = new System.Windows.Forms.Label();
             this.Txt_C3_SName = new System.Windows.Forms.TextBox();
@@ -64,6 +62,7 @@
             this.Btn_C3_Delete_Grade = new System.Windows.Forms.Button();
             this.Btn_C3_Modify_Grade = new System.Windows.Forms.Button();
             this.Btn_C3_Add_Grade = new System.Windows.Forms.Button();
+            this.Tab_Course4 = new System.Windows.Forms.TabPage();
             this.Txt_C4_Grade = new System.Windows.Forms.TextBox();
             this.Lbl_C4_Grade = new System.Windows.Forms.Label();
             this.Txt_C4_SName = new System.Windows.Forms.TextBox();
@@ -74,6 +73,8 @@
             this.Btn_C4_Delete_Grade = new System.Windows.Forms.Button();
             this.Btn_C4_Modify_Grade = new System.Windows.Forms.Button();
             this.Btn_C4_Add_Grade = new System.Windows.Forms.Button();
+            this.Btn_P_Log_Out = new System.Windows.Forms.Button();
+            this.PCalendar = new System.Windows.Forms.MonthCalendar();
             this.Tab_Professor.SuspendLayout();
             this.Tab_Course1.SuspendLayout();
             this.Tab_Course2.SuspendLayout();
@@ -93,7 +94,7 @@
             this.Tab_Professor.Multiline = true;
             this.Tab_Professor.Name = "Tab_Professor";
             this.Tab_Professor.SelectedIndex = 0;
-            this.Tab_Professor.Size = new System.Drawing.Size(1080, 1010);
+            this.Tab_Professor.Size = new System.Drawing.Size(1080, 860);
             this.Tab_Professor.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.Tab_Professor.TabIndex = 0;
             // 
@@ -114,105 +115,46 @@
             this.Tab_Course1.Location = new System.Drawing.Point(53, 4);
             this.Tab_Course1.Name = "Tab_Course1";
             this.Tab_Course1.Padding = new System.Windows.Forms.Padding(3);
-            this.Tab_Course1.Size = new System.Drawing.Size(1023, 1002);
+            this.Tab_Course1.Size = new System.Drawing.Size(1023, 852);
             this.Tab_Course1.TabIndex = 0;
             this.Tab_Course1.Text = "Course 1";
             // 
-            // Tab_Course2
+            // Txt_C1_Grade
             // 
-            this.Tab_Course2.BackColor = System.Drawing.Color.LightGray;
-            this.Tab_Course2.Controls.Add(this.Txt_C2_Grade);
-            this.Tab_Course2.Controls.Add(this.Lbl_C2_Grade);
-            this.Tab_Course2.Controls.Add(this.Txt_C2_SName);
-            this.Tab_Course2.Controls.Add(this.Lbl_C2_SName);
-            this.Tab_Course2.Controls.Add(this.Lbl_C2_SList);
-            this.Tab_Course2.Controls.Add(this.Cmb_C2_SList);
-            this.Tab_Course2.Controls.Add(this.label5);
-            this.Tab_Course2.Controls.Add(this.Btn_C2_Delete_Grade);
-            this.Tab_Course2.Controls.Add(this.Btn_C2_Modify_Grade);
-            this.Tab_Course2.Controls.Add(this.Btn_C2_Add_Grade);
-            this.Tab_Course2.Location = new System.Drawing.Point(53, 4);
-            this.Tab_Course2.Name = "Tab_Course2";
-            this.Tab_Course2.Padding = new System.Windows.Forms.Padding(3);
-            this.Tab_Course2.Size = new System.Drawing.Size(1023, 1002);
-            this.Tab_Course2.TabIndex = 1;
-            this.Tab_Course2.Text = "Course 2";
+            this.Txt_C1_Grade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_C1_Grade.Location = new System.Drawing.Point(36, 202);
+            this.Txt_C1_Grade.Name = "Txt_C1_Grade";
+            this.Txt_C1_Grade.Size = new System.Drawing.Size(296, 49);
+            this.Txt_C1_Grade.TabIndex = 15;
             // 
-            // Btn_P_Log_Out
+            // Lbl_C1_SGrade
             // 
-            this.Btn_P_Log_Out.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_P_Log_Out.Location = new System.Drawing.Point(1281, 834);
-            this.Btn_P_Log_Out.Name = "Btn_P_Log_Out";
-            this.Btn_P_Log_Out.Size = new System.Drawing.Size(363, 200);
-            this.Btn_P_Log_Out.TabIndex = 7;
-            this.Btn_P_Log_Out.Text = "Log Out";
-            this.Btn_P_Log_Out.UseVisualStyleBackColor = true;
-            this.Btn_P_Log_Out.Click += new System.EventHandler(this.Btn_A_Log_Out_Click);
+            this.Lbl_C1_SGrade.AutoSize = true;
+            this.Lbl_C1_SGrade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_C1_SGrade.Location = new System.Drawing.Point(28, 156);
+            this.Lbl_C1_SGrade.Name = "Lbl_C1_SGrade";
+            this.Lbl_C1_SGrade.Size = new System.Drawing.Size(101, 43);
+            this.Lbl_C1_SGrade.TabIndex = 14;
+            this.Lbl_C1_SGrade.Text = "Grade";
             // 
-            // Tab_Course3
+            // Txt_C1_SName
             // 
-            this.Tab_Course3.BackColor = System.Drawing.Color.LightGray;
-            this.Tab_Course3.Controls.Add(this.Txt_C3_Grade);
-            this.Tab_Course3.Controls.Add(this.Lbl_C3_Grade);
-            this.Tab_Course3.Controls.Add(this.Txt_C3_SName);
-            this.Tab_Course3.Controls.Add(this.Lbl_C3_SName);
-            this.Tab_Course3.Controls.Add(this.Lbl_C3_SList);
-            this.Tab_Course3.Controls.Add(this.Cmb_C3_SList);
-            this.Tab_Course3.Controls.Add(this.label6);
-            this.Tab_Course3.Controls.Add(this.Btn_C3_Delete_Grade);
-            this.Tab_Course3.Controls.Add(this.Btn_C3_Modify_Grade);
-            this.Tab_Course3.Controls.Add(this.Btn_C3_Add_Grade);
-            this.Tab_Course3.Location = new System.Drawing.Point(53, 4);
-            this.Tab_Course3.Name = "Tab_Course3";
-            this.Tab_Course3.Size = new System.Drawing.Size(1023, 1002);
-            this.Tab_Course3.TabIndex = 2;
-            this.Tab_Course3.Text = "Course 3";
+            this.Txt_C1_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_C1_SName.Location = new System.Drawing.Point(36, 77);
+            this.Txt_C1_SName.Name = "Txt_C1_SName";
+            this.Txt_C1_SName.Size = new System.Drawing.Size(296, 49);
+            this.Txt_C1_SName.TabIndex = 13;
             // 
-            // Tab_Course4
+            // Lbl_C1_SName
             // 
-            this.Tab_Course4.BackColor = System.Drawing.Color.LightGray;
-            this.Tab_Course4.Controls.Add(this.Txt_C4_Grade);
-            this.Tab_Course4.Controls.Add(this.Lbl_C4_Grade);
-            this.Tab_Course4.Controls.Add(this.Txt_C4_SName);
-            this.Tab_Course4.Controls.Add(this.Lbl_C4_SName);
-            this.Tab_Course4.Controls.Add(this.Lbl_C4_SList);
-            this.Tab_Course4.Controls.Add(this.Cmb_C4_SList);
-            this.Tab_Course4.Controls.Add(this.label7);
-            this.Tab_Course4.Controls.Add(this.Btn_C4_Delete_Grade);
-            this.Tab_Course4.Controls.Add(this.Btn_C4_Modify_Grade);
-            this.Tab_Course4.Controls.Add(this.Btn_C4_Add_Grade);
-            this.Tab_Course4.Location = new System.Drawing.Point(53, 4);
-            this.Tab_Course4.Name = "Tab_Course4";
-            this.Tab_Course4.Size = new System.Drawing.Size(1023, 1002);
-            this.Tab_Course4.TabIndex = 3;
-            this.Tab_Course4.Text = "Course 4";
-            // 
-            // Btn_C1_Delete_Grade
-            // 
-            this.Btn_C1_Delete_Grade.Location = new System.Drawing.Point(690, 822);
-            this.Btn_C1_Delete_Grade.Name = "Btn_C1_Delete_Grade";
-            this.Btn_C1_Delete_Grade.Size = new System.Drawing.Size(296, 148);
-            this.Btn_C1_Delete_Grade.TabIndex = 7;
-            this.Btn_C1_Delete_Grade.Text = "Delete Grade";
-            this.Btn_C1_Delete_Grade.UseVisualStyleBackColor = true;
-            // 
-            // Btn_C1_Modify_Grade
-            // 
-            this.Btn_C1_Modify_Grade.Location = new System.Drawing.Point(358, 823);
-            this.Btn_C1_Modify_Grade.Name = "Btn_C1_Modify_Grade";
-            this.Btn_C1_Modify_Grade.Size = new System.Drawing.Size(296, 148);
-            this.Btn_C1_Modify_Grade.TabIndex = 6;
-            this.Btn_C1_Modify_Grade.Text = "Modify Grade";
-            this.Btn_C1_Modify_Grade.UseVisualStyleBackColor = true;
-            // 
-            // Btn_C1_Add_Grade
-            // 
-            this.Btn_C1_Add_Grade.Location = new System.Drawing.Point(36, 822);
-            this.Btn_C1_Add_Grade.Name = "Btn_C1_Add_Grade";
-            this.Btn_C1_Add_Grade.Size = new System.Drawing.Size(296, 149);
-            this.Btn_C1_Add_Grade.TabIndex = 5;
-            this.Btn_C1_Add_Grade.Text = "Add Grade";
-            this.Btn_C1_Add_Grade.UseVisualStyleBackColor = true;
+            this.Lbl_C1_SName.AutoSize = true;
+            this.Lbl_C1_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_C1_SName.Location = new System.Drawing.Point(28, 30);
+            this.Lbl_C1_SName.Name = "Lbl_C1_SName";
+            this.Lbl_C1_SName.Size = new System.Drawing.Size(213, 43);
+            this.Lbl_C1_SName.TabIndex = 12;
+            this.Lbl_C1_SName.Text = "Student Name";
+            this.Lbl_C1_SName.Click += new System.EventHandler(this.Lbl_Course_ID_Click);
             // 
             // lbl_C1_SList
             // 
@@ -242,42 +184,52 @@
             this.label3.Size = new System.Drawing.Size(0, 43);
             this.label3.TabIndex = 8;
             // 
-            // Txt_C1_SName
+            // Btn_C1_Delete_Grade
             // 
-            this.Txt_C1_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_C1_SName.Location = new System.Drawing.Point(36, 77);
-            this.Txt_C1_SName.Name = "Txt_C1_SName";
-            this.Txt_C1_SName.Size = new System.Drawing.Size(296, 49);
-            this.Txt_C1_SName.TabIndex = 13;
+            this.Btn_C1_Delete_Grade.Location = new System.Drawing.Point(698, 662);
+            this.Btn_C1_Delete_Grade.Name = "Btn_C1_Delete_Grade";
+            this.Btn_C1_Delete_Grade.Size = new System.Drawing.Size(296, 148);
+            this.Btn_C1_Delete_Grade.TabIndex = 7;
+            this.Btn_C1_Delete_Grade.Text = "Delete Grade";
+            this.Btn_C1_Delete_Grade.UseVisualStyleBackColor = true;
             // 
-            // Lbl_C1_SName
+            // Btn_C1_Modify_Grade
             // 
-            this.Lbl_C1_SName.AutoSize = true;
-            this.Lbl_C1_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_C1_SName.Location = new System.Drawing.Point(28, 30);
-            this.Lbl_C1_SName.Name = "Lbl_C1_SName";
-            this.Lbl_C1_SName.Size = new System.Drawing.Size(213, 43);
-            this.Lbl_C1_SName.TabIndex = 12;
-            this.Lbl_C1_SName.Text = "Student Name";
-            this.Lbl_C1_SName.Click += new System.EventHandler(this.Lbl_Course_ID_Click);
+            this.Btn_C1_Modify_Grade.Location = new System.Drawing.Point(366, 663);
+            this.Btn_C1_Modify_Grade.Name = "Btn_C1_Modify_Grade";
+            this.Btn_C1_Modify_Grade.Size = new System.Drawing.Size(296, 148);
+            this.Btn_C1_Modify_Grade.TabIndex = 6;
+            this.Btn_C1_Modify_Grade.Text = "Modify Grade";
+            this.Btn_C1_Modify_Grade.UseVisualStyleBackColor = true;
             // 
-            // Txt_C1_Grade
+            // Btn_C1_Add_Grade
             // 
-            this.Txt_C1_Grade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_C1_Grade.Location = new System.Drawing.Point(36, 202);
-            this.Txt_C1_Grade.Name = "Txt_C1_Grade";
-            this.Txt_C1_Grade.Size = new System.Drawing.Size(296, 49);
-            this.Txt_C1_Grade.TabIndex = 15;
+            this.Btn_C1_Add_Grade.Location = new System.Drawing.Point(36, 662);
+            this.Btn_C1_Add_Grade.Name = "Btn_C1_Add_Grade";
+            this.Btn_C1_Add_Grade.Size = new System.Drawing.Size(296, 149);
+            this.Btn_C1_Add_Grade.TabIndex = 5;
+            this.Btn_C1_Add_Grade.Text = "Add Grade";
+            this.Btn_C1_Add_Grade.UseVisualStyleBackColor = true;
             // 
-            // Lbl_C1_SGrade
+            // Tab_Course2
             // 
-            this.Lbl_C1_SGrade.AutoSize = true;
-            this.Lbl_C1_SGrade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_C1_SGrade.Location = new System.Drawing.Point(28, 156);
-            this.Lbl_C1_SGrade.Name = "Lbl_C1_SGrade";
-            this.Lbl_C1_SGrade.Size = new System.Drawing.Size(101, 43);
-            this.Lbl_C1_SGrade.TabIndex = 14;
-            this.Lbl_C1_SGrade.Text = "Grade";
+            this.Tab_Course2.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course2.Controls.Add(this.Txt_C2_Grade);
+            this.Tab_Course2.Controls.Add(this.Lbl_C2_Grade);
+            this.Tab_Course2.Controls.Add(this.Txt_C2_SName);
+            this.Tab_Course2.Controls.Add(this.Lbl_C2_SName);
+            this.Tab_Course2.Controls.Add(this.Lbl_C2_SList);
+            this.Tab_Course2.Controls.Add(this.Cmb_C2_SList);
+            this.Tab_Course2.Controls.Add(this.label5);
+            this.Tab_Course2.Controls.Add(this.Btn_C2_Delete_Grade);
+            this.Tab_Course2.Controls.Add(this.Btn_C2_Modify_Grade);
+            this.Tab_Course2.Controls.Add(this.Btn_C2_Add_Grade);
+            this.Tab_Course2.Location = new System.Drawing.Point(53, 4);
+            this.Tab_Course2.Name = "Tab_Course2";
+            this.Tab_Course2.Padding = new System.Windows.Forms.Padding(3);
+            this.Tab_Course2.Size = new System.Drawing.Size(1023, 852);
+            this.Tab_Course2.TabIndex = 1;
+            this.Tab_Course2.Text = "Course 2";
             // 
             // Txt_C2_Grade
             // 
@@ -346,7 +298,7 @@
             // Btn_C2_Delete_Grade
             // 
             this.Btn_C2_Delete_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C2_Delete_Grade.Location = new System.Drawing.Point(698, 823);
+            this.Btn_C2_Delete_Grade.Location = new System.Drawing.Point(698, 663);
             this.Btn_C2_Delete_Grade.Name = "Btn_C2_Delete_Grade";
             this.Btn_C2_Delete_Grade.Size = new System.Drawing.Size(296, 148);
             this.Btn_C2_Delete_Grade.TabIndex = 18;
@@ -356,7 +308,7 @@
             // Btn_C2_Modify_Grade
             // 
             this.Btn_C2_Modify_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C2_Modify_Grade.Location = new System.Drawing.Point(366, 823);
+            this.Btn_C2_Modify_Grade.Location = new System.Drawing.Point(366, 661);
             this.Btn_C2_Modify_Grade.Name = "Btn_C2_Modify_Grade";
             this.Btn_C2_Modify_Grade.Size = new System.Drawing.Size(296, 148);
             this.Btn_C2_Modify_Grade.TabIndex = 17;
@@ -366,12 +318,31 @@
             // Btn_C2_Add_Grade
             // 
             this.Btn_C2_Add_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C2_Add_Grade.Location = new System.Drawing.Point(36, 823);
+            this.Btn_C2_Add_Grade.Location = new System.Drawing.Point(35, 661);
             this.Btn_C2_Add_Grade.Name = "Btn_C2_Add_Grade";
             this.Btn_C2_Add_Grade.Size = new System.Drawing.Size(296, 149);
             this.Btn_C2_Add_Grade.TabIndex = 16;
             this.Btn_C2_Add_Grade.Text = "Add Grade";
             this.Btn_C2_Add_Grade.UseVisualStyleBackColor = true;
+            // 
+            // Tab_Course3
+            // 
+            this.Tab_Course3.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course3.Controls.Add(this.Txt_C3_Grade);
+            this.Tab_Course3.Controls.Add(this.Lbl_C3_Grade);
+            this.Tab_Course3.Controls.Add(this.Txt_C3_SName);
+            this.Tab_Course3.Controls.Add(this.Lbl_C3_SName);
+            this.Tab_Course3.Controls.Add(this.Lbl_C3_SList);
+            this.Tab_Course3.Controls.Add(this.Cmb_C3_SList);
+            this.Tab_Course3.Controls.Add(this.label6);
+            this.Tab_Course3.Controls.Add(this.Btn_C3_Delete_Grade);
+            this.Tab_Course3.Controls.Add(this.Btn_C3_Modify_Grade);
+            this.Tab_Course3.Controls.Add(this.Btn_C3_Add_Grade);
+            this.Tab_Course3.Location = new System.Drawing.Point(53, 4);
+            this.Tab_Course3.Name = "Tab_Course3";
+            this.Tab_Course3.Size = new System.Drawing.Size(1023, 852);
+            this.Tab_Course3.TabIndex = 2;
+            this.Tab_Course3.Text = "Course 3";
             // 
             // Txt_C3_Grade
             // 
@@ -440,7 +411,7 @@
             // Btn_C3_Delete_Grade
             // 
             this.Btn_C3_Delete_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C3_Delete_Grade.Location = new System.Drawing.Point(698, 823);
+            this.Btn_C3_Delete_Grade.Location = new System.Drawing.Point(698, 664);
             this.Btn_C3_Delete_Grade.Name = "Btn_C3_Delete_Grade";
             this.Btn_C3_Delete_Grade.Size = new System.Drawing.Size(296, 148);
             this.Btn_C3_Delete_Grade.TabIndex = 28;
@@ -450,7 +421,7 @@
             // Btn_C3_Modify_Grade
             // 
             this.Btn_C3_Modify_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C3_Modify_Grade.Location = new System.Drawing.Point(366, 823);
+            this.Btn_C3_Modify_Grade.Location = new System.Drawing.Point(366, 664);
             this.Btn_C3_Modify_Grade.Name = "Btn_C3_Modify_Grade";
             this.Btn_C3_Modify_Grade.Size = new System.Drawing.Size(296, 148);
             this.Btn_C3_Modify_Grade.TabIndex = 27;
@@ -460,12 +431,31 @@
             // Btn_C3_Add_Grade
             // 
             this.Btn_C3_Add_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C3_Add_Grade.Location = new System.Drawing.Point(36, 823);
+            this.Btn_C3_Add_Grade.Location = new System.Drawing.Point(36, 664);
             this.Btn_C3_Add_Grade.Name = "Btn_C3_Add_Grade";
             this.Btn_C3_Add_Grade.Size = new System.Drawing.Size(296, 149);
             this.Btn_C3_Add_Grade.TabIndex = 26;
             this.Btn_C3_Add_Grade.Text = "Add Grade";
             this.Btn_C3_Add_Grade.UseVisualStyleBackColor = true;
+            // 
+            // Tab_Course4
+            // 
+            this.Tab_Course4.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course4.Controls.Add(this.Txt_C4_Grade);
+            this.Tab_Course4.Controls.Add(this.Lbl_C4_Grade);
+            this.Tab_Course4.Controls.Add(this.Txt_C4_SName);
+            this.Tab_Course4.Controls.Add(this.Lbl_C4_SName);
+            this.Tab_Course4.Controls.Add(this.Lbl_C4_SList);
+            this.Tab_Course4.Controls.Add(this.Cmb_C4_SList);
+            this.Tab_Course4.Controls.Add(this.label7);
+            this.Tab_Course4.Controls.Add(this.Btn_C4_Delete_Grade);
+            this.Tab_Course4.Controls.Add(this.Btn_C4_Modify_Grade);
+            this.Tab_Course4.Controls.Add(this.Btn_C4_Add_Grade);
+            this.Tab_Course4.Location = new System.Drawing.Point(53, 4);
+            this.Tab_Course4.Name = "Tab_Course4";
+            this.Tab_Course4.Size = new System.Drawing.Size(1023, 852);
+            this.Tab_Course4.TabIndex = 3;
+            this.Tab_Course4.Text = "Course 4";
             // 
             // Txt_C4_Grade
             // 
@@ -534,7 +524,7 @@
             // Btn_C4_Delete_Grade
             // 
             this.Btn_C4_Delete_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C4_Delete_Grade.Location = new System.Drawing.Point(698, 823);
+            this.Btn_C4_Delete_Grade.Location = new System.Drawing.Point(698, 662);
             this.Btn_C4_Delete_Grade.Name = "Btn_C4_Delete_Grade";
             this.Btn_C4_Delete_Grade.Size = new System.Drawing.Size(296, 148);
             this.Btn_C4_Delete_Grade.TabIndex = 28;
@@ -544,7 +534,7 @@
             // Btn_C4_Modify_Grade
             // 
             this.Btn_C4_Modify_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C4_Modify_Grade.Location = new System.Drawing.Point(366, 823);
+            this.Btn_C4_Modify_Grade.Location = new System.Drawing.Point(366, 664);
             this.Btn_C4_Modify_Grade.Name = "Btn_C4_Modify_Grade";
             this.Btn_C4_Modify_Grade.Size = new System.Drawing.Size(296, 148);
             this.Btn_C4_Modify_Grade.TabIndex = 27;
@@ -554,23 +544,51 @@
             // Btn_C4_Add_Grade
             // 
             this.Btn_C4_Add_Grade.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_C4_Add_Grade.Location = new System.Drawing.Point(36, 823);
+            this.Btn_C4_Add_Grade.Location = new System.Drawing.Point(36, 664);
             this.Btn_C4_Add_Grade.Name = "Btn_C4_Add_Grade";
             this.Btn_C4_Add_Grade.Size = new System.Drawing.Size(296, 149);
             this.Btn_C4_Add_Grade.TabIndex = 26;
             this.Btn_C4_Add_Grade.Text = "Add Grade";
             this.Btn_C4_Add_Grade.UseVisualStyleBackColor = true;
             // 
+            // Btn_P_Log_Out
+            // 
+            this.Btn_P_Log_Out.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Btn_P_Log_Out.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_P_Log_Out.Location = new System.Drawing.Point(1163, 703);
+            this.Btn_P_Log_Out.Name = "Btn_P_Log_Out";
+            this.Btn_P_Log_Out.Size = new System.Drawing.Size(323, 147);
+            this.Btn_P_Log_Out.TabIndex = 7;
+            this.Btn_P_Log_Out.Text = "Log Out";
+            this.Btn_P_Log_Out.UseVisualStyleBackColor = true;
+            this.Btn_P_Log_Out.Click += new System.EventHandler(this.Btn_A_Log_Out_Click);
+            // 
+            // PCalendar
+            // 
+            this.PCalendar.BackColor = System.Drawing.Color.Gainsboro;
+            this.PCalendar.CalendarDimensions = new System.Drawing.Size(1, 2);
+            this.PCalendar.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PCalendar.Location = new System.Drawing.Point(1163, 40);
+            this.PCalendar.MinimumSize = new System.Drawing.Size(323, 646);
+            this.PCalendar.Name = "PCalendar";
+            this.PCalendar.TabIndex = 17;
+            this.PCalendar.TitleBackColor = System.Drawing.Color.LightGray;
+            this.PCalendar.TrailingForeColor = System.Drawing.SystemColors.Control;
+            // 
             // ProfessorView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1709, 1099);
+            this.ClientSize = new System.Drawing.Size(1614, 908);
+            this.Controls.Add(this.PCalendar);
             this.Controls.Add(this.Btn_P_Log_Out);
             this.Controls.Add(this.Tab_Professor);
             this.Name = "ProfessorView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Professor";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Tab_Professor.ResumeLayout(false);
             this.Tab_Course1.ResumeLayout(false);
             this.Tab_Course1.PerformLayout();
@@ -632,5 +650,6 @@
         private System.Windows.Forms.Button Btn_C4_Delete_Grade;
         private System.Windows.Forms.Button Btn_C4_Modify_Grade;
         private System.Windows.Forms.Button Btn_C4_Add_Grade;
+        private System.Windows.Forms.MonthCalendar PCalendar;
     }
 }

@@ -70,6 +70,8 @@
             this.Btn_Add_Prof = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.Students = new System.Windows.Forms.TabPage();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Lbl_GPA = new System.Windows.Forms.Label();
             this.Lbl_Std_LName = new System.Windows.Forms.Label();
             this.Txt_Std_LName = new System.Windows.Forms.TextBox();
             this.Txt_Class_Lvl = new System.Windows.Forms.TextBox();
@@ -88,8 +90,6 @@
             this.Btn_Remove_Tab = new System.Windows.Forms.Button();
             this.Btn_Remove_All_Tabs = new System.Windows.Forms.Button();
             this.Btn_A_Log_Out = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.Lbl_GPA = new System.Windows.Forms.Label();
             this.Admin_Tab_Control.SuspendLayout();
             this.Courses.SuspendLayout();
             this.Professors.SuspendLayout();
@@ -99,18 +99,16 @@
             // Admin_Tab_Control
             // 
             this.Admin_Tab_Control.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.Admin_Tab_Control.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.Admin_Tab_Control.Controls.Add(this.Courses);
             this.Admin_Tab_Control.Controls.Add(this.Professors);
             this.Admin_Tab_Control.Controls.Add(this.Students);
             this.Admin_Tab_Control.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Admin_Tab_Control.ItemSize = new System.Drawing.Size(25, 50);
-            this.Admin_Tab_Control.Location = new System.Drawing.Point(43, 62);
+            this.Admin_Tab_Control.Location = new System.Drawing.Point(35, 26);
             this.Admin_Tab_Control.Multiline = true;
             this.Admin_Tab_Control.Name = "Admin_Tab_Control";
             this.Admin_Tab_Control.SelectedIndex = 0;
-            this.Admin_Tab_Control.Size = new System.Drawing.Size(1080, 1010);
+            this.Admin_Tab_Control.Size = new System.Drawing.Size(1080, 860);
             this.Admin_Tab_Control.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.Admin_Tab_Control.TabIndex = 2;
             // 
@@ -142,7 +140,7 @@
             this.Courses.Location = new System.Drawing.Point(54, 4);
             this.Courses.Name = "Courses";
             this.Courses.Padding = new System.Windows.Forms.Padding(3);
-            this.Courses.Size = new System.Drawing.Size(1022, 1002);
+            this.Courses.Size = new System.Drawing.Size(1022, 852);
             this.Courses.TabIndex = 0;
             this.Courses.Text = "Courses";
             this.Courses.Click += new System.EventHandler(this.tabPage1_Click_1);
@@ -151,7 +149,7 @@
             // 
             this.Lbl_Ends.AutoSize = true;
             this.Lbl_Ends.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Ends.Location = new System.Drawing.Point(19, 682);
+            this.Lbl_Ends.Location = new System.Drawing.Point(19, 590);
             this.Lbl_Ends.Name = "Lbl_Ends";
             this.Lbl_Ends.Size = new System.Drawing.Size(168, 43);
             this.Lbl_Ends.TabIndex = 20;
@@ -161,7 +159,7 @@
             // Txt_Ends
             // 
             this.Txt_Ends.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Ends.Location = new System.Drawing.Point(26, 734);
+            this.Txt_Ends.Location = new System.Drawing.Point(26, 636);
             this.Txt_Ends.Name = "Txt_Ends";
             this.Txt_Ends.Size = new System.Drawing.Size(296, 49);
             this.Txt_Ends.TabIndex = 19;
@@ -170,7 +168,7 @@
             // Txt_Mode
             // 
             this.Txt_Mode.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Mode.Location = new System.Drawing.Point(26, 396);
+            this.Txt_Mode.Location = new System.Drawing.Point(26, 342);
             this.Txt_Mode.Name = "Txt_Mode";
             this.Txt_Mode.Size = new System.Drawing.Size(296, 49);
             this.Txt_Mode.TabIndex = 18;
@@ -179,7 +177,7 @@
             // 
             this.Lbl_Mode.AutoSize = true;
             this.Lbl_Mode.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Mode.Location = new System.Drawing.Point(19, 341);
+            this.Lbl_Mode.Location = new System.Drawing.Point(19, 296);
             this.Lbl_Mode.Name = "Lbl_Mode";
             this.Lbl_Mode.Size = new System.Drawing.Size(96, 43);
             this.Lbl_Mode.TabIndex = 17;
@@ -189,7 +187,7 @@
             // 
             this.Lbl_Begin.AutoSize = true;
             this.Lbl_Begin.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Begin.Location = new System.Drawing.Point(18, 575);
+            this.Lbl_Begin.Location = new System.Drawing.Point(19, 492);
             this.Lbl_Begin.Name = "Lbl_Begin";
             this.Lbl_Begin.Size = new System.Drawing.Size(193, 43);
             this.Lbl_Begin.TabIndex = 16;
@@ -198,7 +196,7 @@
             // Txt_Begin
             // 
             this.Txt_Begin.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Begin.Location = new System.Drawing.Point(26, 621);
+            this.Txt_Begin.Location = new System.Drawing.Point(26, 538);
             this.Txt_Begin.Name = "Txt_Begin";
             this.Txt_Begin.Size = new System.Drawing.Size(296, 49);
             this.Txt_Begin.TabIndex = 15;
@@ -206,7 +204,7 @@
             // Txt_Professor
             // 
             this.Txt_Professor.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Professor.Location = new System.Drawing.Point(26, 513);
+            this.Txt_Professor.Location = new System.Drawing.Point(26, 440);
             this.Txt_Professor.Name = "Txt_Professor";
             this.Txt_Professor.Size = new System.Drawing.Size(296, 49);
             this.Txt_Professor.TabIndex = 14;
@@ -216,7 +214,7 @@
             // 
             this.Lbl_Professor.AutoSize = true;
             this.Lbl_Professor.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Professor.Location = new System.Drawing.Point(19, 458);
+            this.Lbl_Professor.Location = new System.Drawing.Point(18, 394);
             this.Lbl_Professor.Name = "Lbl_Professor";
             this.Lbl_Professor.Size = new System.Drawing.Size(183, 43);
             this.Lbl_Professor.TabIndex = 13;
@@ -225,7 +223,7 @@
             // Txt_Course_Num
             // 
             this.Txt_Course_Num.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Course_Num.Location = new System.Drawing.Point(26, 172);
+            this.Txt_Course_Num.Location = new System.Drawing.Point(27, 146);
             this.Txt_Course_Num.Name = "Txt_Course_Num";
             this.Txt_Course_Num.Size = new System.Drawing.Size(296, 49);
             this.Txt_Course_Num.TabIndex = 12;
@@ -235,7 +233,7 @@
             // 
             this.Lbl_Course_Num.AutoSize = true;
             this.Lbl_Course_Num.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Course_Num.Location = new System.Drawing.Point(19, 126);
+            this.Lbl_Course_Num.Location = new System.Drawing.Point(19, 100);
             this.Lbl_Course_Num.Name = "Lbl_Course_Num";
             this.Lbl_Course_Num.Size = new System.Drawing.Size(229, 43);
             this.Lbl_Course_Num.TabIndex = 11;
@@ -244,7 +242,7 @@
             // Txt_Course_ID
             // 
             this.Txt_Course_ID.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Course_ID.Location = new System.Drawing.Point(26, 59);
+            this.Txt_Course_ID.Location = new System.Drawing.Point(26, 48);
             this.Txt_Course_ID.Name = "Txt_Course_ID";
             this.Txt_Course_ID.Size = new System.Drawing.Size(296, 49);
             this.Txt_Course_ID.TabIndex = 10;
@@ -264,7 +262,7 @@
             // 
             this.Lbl_Course_Name.AutoSize = true;
             this.Lbl_Course_Name.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Course_Name.Location = new System.Drawing.Point(18, 233);
+            this.Lbl_Course_Name.Location = new System.Drawing.Point(19, 198);
             this.Lbl_Course_Name.Name = "Lbl_Course_Name";
             this.Lbl_Course_Name.Size = new System.Drawing.Size(201, 43);
             this.Lbl_Course_Name.TabIndex = 8;
@@ -273,7 +271,7 @@
             // Txt_Course
             // 
             this.Txt_Course.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Course.Location = new System.Drawing.Point(26, 289);
+            this.Txt_Course.Location = new System.Drawing.Point(26, 244);
             this.Txt_Course.Name = "Txt_Course";
             this.Txt_Course.Size = new System.Drawing.Size(296, 49);
             this.Txt_Course.TabIndex = 7;
@@ -295,13 +293,13 @@
             this.Cb_Courses.FormattingEnabled = true;
             this.Cb_Courses.Location = new System.Drawing.Point(356, 57);
             this.Cb_Courses.Name = "Cb_Courses";
-            this.Cb_Courses.Size = new System.Drawing.Size(628, 51);
+            this.Cb_Courses.Size = new System.Drawing.Size(622, 51);
             this.Cb_Courses.TabIndex = 5;
             this.Cb_Courses.SelectedIndexChanged += new System.EventHandler(this.cb_Courses_SelectedIndexChanged);
             // 
             // Btn_Delete_Course
             // 
-            this.Btn_Delete_Course.Location = new System.Drawing.Point(688, 824);
+            this.Btn_Delete_Course.Location = new System.Drawing.Point(682, 694);
             this.Btn_Delete_Course.Name = "Btn_Delete_Course";
             this.Btn_Delete_Course.Size = new System.Drawing.Size(296, 148);
             this.Btn_Delete_Course.TabIndex = 4;
@@ -310,7 +308,7 @@
             // 
             // Btn_Modify_Course
             // 
-            this.Btn_Modify_Course.Location = new System.Drawing.Point(356, 824);
+            this.Btn_Modify_Course.Location = new System.Drawing.Point(356, 691);
             this.Btn_Modify_Course.Name = "Btn_Modify_Course";
             this.Btn_Modify_Course.Size = new System.Drawing.Size(296, 148);
             this.Btn_Modify_Course.TabIndex = 3;
@@ -319,9 +317,9 @@
             // 
             // Btn_Add_Course
             // 
-            this.Btn_Add_Course.Location = new System.Drawing.Point(26, 824);
+            this.Btn_Add_Course.Location = new System.Drawing.Point(26, 691);
             this.Btn_Add_Course.Name = "Btn_Add_Course";
-            this.Btn_Add_Course.Size = new System.Drawing.Size(296, 149);
+            this.Btn_Add_Course.Size = new System.Drawing.Size(296, 148);
             this.Btn_Add_Course.TabIndex = 2;
             this.Btn_Add_Course.Text = "Add Course";
             this.Btn_Add_Course.UseVisualStyleBackColor = true;
@@ -361,7 +359,7 @@
             this.Professors.Location = new System.Drawing.Point(54, 4);
             this.Professors.Name = "Professors";
             this.Professors.Padding = new System.Windows.Forms.Padding(3);
-            this.Professors.Size = new System.Drawing.Size(1012, 1002);
+            this.Professors.Size = new System.Drawing.Size(1022, 852);
             this.Professors.TabIndex = 1;
             this.Professors.Text = "Professors";
             this.Professors.Click += new System.EventHandler(this.Professors_Click);
@@ -369,7 +367,7 @@
             // Txt_Office
             // 
             this.Txt_Office.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Office.Location = new System.Drawing.Point(33, 722);
+            this.Txt_Office.Location = new System.Drawing.Point(27, 547);
             this.Txt_Office.Name = "Txt_Office";
             this.Txt_Office.Size = new System.Drawing.Size(296, 49);
             this.Txt_Office.TabIndex = 32;
@@ -378,7 +376,7 @@
             // 
             this.Lbl_Office.AutoSize = true;
             this.Lbl_Office.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Office.Location = new System.Drawing.Point(26, 666);
+            this.Lbl_Office.Location = new System.Drawing.Point(19, 501);
             this.Lbl_Office.Name = "Lbl_Office";
             this.Lbl_Office.Size = new System.Drawing.Size(212, 43);
             this.Lbl_Office.TabIndex = 31;
@@ -388,7 +386,7 @@
             // 
             this.Lbl_Last_Name.AutoSize = true;
             this.Lbl_Last_Name.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Last_Name.Location = new System.Drawing.Point(26, 284);
+            this.Lbl_Last_Name.Location = new System.Drawing.Point(19, 207);
             this.Lbl_Last_Name.Name = "Lbl_Last_Name";
             this.Lbl_Last_Name.Size = new System.Drawing.Size(163, 43);
             this.Lbl_Last_Name.TabIndex = 30;
@@ -397,7 +395,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(33, 343);
+            this.textBox2.Location = new System.Drawing.Point(27, 253);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(296, 49);
             this.textBox2.TabIndex = 29;
@@ -405,7 +403,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(33, 472);
+            this.textBox1.Location = new System.Drawing.Point(27, 351);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(296, 49);
             this.textBox1.TabIndex = 28;
@@ -414,7 +412,7 @@
             // 
             this.Lbl_Position.AutoSize = true;
             this.Lbl_Position.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Position.Location = new System.Drawing.Point(26, 414);
+            this.Lbl_Position.Location = new System.Drawing.Point(19, 305);
             this.Lbl_Position.Name = "Lbl_Position";
             this.Lbl_Position.Size = new System.Drawing.Size(129, 43);
             this.Lbl_Position.TabIndex = 27;
@@ -423,7 +421,7 @@
             // Txt_Department
             // 
             this.Txt_Department.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Department.Location = new System.Drawing.Point(33, 597);
+            this.Txt_Department.Location = new System.Drawing.Point(27, 449);
             this.Txt_Department.Name = "Txt_Department";
             this.Txt_Department.Size = new System.Drawing.Size(296, 49);
             this.Txt_Department.TabIndex = 26;
@@ -432,7 +430,7 @@
             // 
             this.Lbl_Department.AutoSize = true;
             this.Lbl_Department.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Department.Location = new System.Drawing.Point(26, 544);
+            this.Lbl_Department.Location = new System.Drawing.Point(19, 403);
             this.Lbl_Department.Name = "Lbl_Department";
             this.Lbl_Department.Size = new System.Drawing.Size(180, 43);
             this.Lbl_Department.TabIndex = 25;
@@ -441,7 +439,7 @@
             // Txt_Emp_ID
             // 
             this.Txt_Emp_ID.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Emp_ID.Location = new System.Drawing.Point(33, 74);
+            this.Txt_Emp_ID.Location = new System.Drawing.Point(27, 57);
             this.Txt_Emp_ID.Name = "Txt_Emp_ID";
             this.Txt_Emp_ID.Size = new System.Drawing.Size(296, 49);
             this.Txt_Emp_ID.TabIndex = 24;
@@ -450,7 +448,7 @@
             // 
             this.Lbl_Emp_ID.AutoSize = true;
             this.Lbl_Emp_ID.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Emp_ID.Location = new System.Drawing.Point(26, 23);
+            this.Lbl_Emp_ID.Location = new System.Drawing.Point(19, 11);
             this.Lbl_Emp_ID.Name = "Lbl_Emp_ID";
             this.Lbl_Emp_ID.Size = new System.Drawing.Size(187, 43);
             this.Lbl_Emp_ID.TabIndex = 23;
@@ -460,7 +458,7 @@
             // 
             this.Lbl_First_Name.AutoSize = true;
             this.Lbl_First_Name.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_First_Name.Location = new System.Drawing.Point(26, 150);
+            this.Lbl_First_Name.Location = new System.Drawing.Point(19, 109);
             this.Lbl_First_Name.Name = "Lbl_First_Name";
             this.Lbl_First_Name.Size = new System.Drawing.Size(165, 43);
             this.Lbl_First_Name.TabIndex = 22;
@@ -469,7 +467,7 @@
             // Txt_First_Name
             // 
             this.Txt_First_Name.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_First_Name.Location = new System.Drawing.Point(33, 208);
+            this.Txt_First_Name.Location = new System.Drawing.Point(27, 155);
             this.Txt_First_Name.Name = "Txt_First_Name";
             this.Txt_First_Name.Size = new System.Drawing.Size(296, 49);
             this.Txt_First_Name.TabIndex = 21;
@@ -478,7 +476,7 @@
             // 
             this.Lbl_Professor_List.AutoSize = true;
             this.Lbl_Professor_List.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Professor_List.Location = new System.Drawing.Point(350, 23);
+            this.Lbl_Professor_List.Location = new System.Drawing.Point(350, 11);
             this.Lbl_Professor_List.Name = "Lbl_Professor_List";
             this.Lbl_Professor_List.Size = new System.Drawing.Size(201, 43);
             this.Lbl_Professor_List.TabIndex = 20;
@@ -488,7 +486,7 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(358, 74);
+            this.comboBox1.Location = new System.Drawing.Point(358, 57);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(624, 51);
             this.comboBox1.TabIndex = 19;
@@ -496,9 +494,9 @@
             // Btn_Delete_Prof
             // 
             this.Btn_Delete_Prof.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Delete_Prof.Location = new System.Drawing.Point(686, 815);
+            this.Btn_Delete_Prof.Location = new System.Drawing.Point(686, 689);
             this.Btn_Delete_Prof.Name = "Btn_Delete_Prof";
-            this.Btn_Delete_Prof.Size = new System.Drawing.Size(296, 149);
+            this.Btn_Delete_Prof.Size = new System.Drawing.Size(296, 148);
             this.Btn_Delete_Prof.TabIndex = 18;
             this.Btn_Delete_Prof.Text = "Delete Professor";
             this.Btn_Delete_Prof.UseVisualStyleBackColor = true;
@@ -506,9 +504,9 @@
             // Btn_Modify_Prof
             // 
             this.Btn_Modify_Prof.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Modify_Prof.Location = new System.Drawing.Point(358, 815);
+            this.Btn_Modify_Prof.Location = new System.Drawing.Point(358, 691);
             this.Btn_Modify_Prof.Name = "Btn_Modify_Prof";
-            this.Btn_Modify_Prof.Size = new System.Drawing.Size(296, 149);
+            this.Btn_Modify_Prof.Size = new System.Drawing.Size(296, 148);
             this.Btn_Modify_Prof.TabIndex = 17;
             this.Btn_Modify_Prof.Text = "Modify Professor";
             this.Btn_Modify_Prof.UseVisualStyleBackColor = true;
@@ -516,9 +514,9 @@
             // Btn_Add_Prof
             // 
             this.Btn_Add_Prof.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Add_Prof.Location = new System.Drawing.Point(33, 815);
+            this.Btn_Add_Prof.Location = new System.Drawing.Point(26, 691);
             this.Btn_Add_Prof.Name = "Btn_Add_Prof";
-            this.Btn_Add_Prof.Size = new System.Drawing.Size(296, 149);
+            this.Btn_Add_Prof.Size = new System.Drawing.Size(296, 148);
             this.Btn_Add_Prof.TabIndex = 16;
             this.Btn_Add_Prof.Text = "Add Professor";
             this.Btn_Add_Prof.UseVisualStyleBackColor = true;
@@ -554,15 +552,33 @@
             this.Students.Controls.Add(this.label10);
             this.Students.Location = new System.Drawing.Point(54, 4);
             this.Students.Name = "Students";
-            this.Students.Size = new System.Drawing.Size(1022, 1002);
+            this.Students.Size = new System.Drawing.Size(1022, 852);
             this.Students.TabIndex = 2;
             this.Students.Text = "Students";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(25, 449);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(296, 49);
+            this.textBox3.TabIndex = 50;
+            // 
+            // Lbl_GPA
+            // 
+            this.Lbl_GPA.AutoSize = true;
+            this.Lbl_GPA.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_GPA.Location = new System.Drawing.Point(19, 403);
+            this.Lbl_GPA.Name = "Lbl_GPA";
+            this.Lbl_GPA.Size = new System.Drawing.Size(176, 43);
+            this.Lbl_GPA.TabIndex = 49;
+            this.Lbl_GPA.Text = "Overall GPA";
             // 
             // Lbl_Std_LName
             // 
             this.Lbl_Std_LName.AutoSize = true;
             this.Lbl_Std_LName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Std_LName.Location = new System.Drawing.Point(17, 291);
+            this.Lbl_Std_LName.Location = new System.Drawing.Point(17, 207);
             this.Lbl_Std_LName.Name = "Lbl_Std_LName";
             this.Lbl_Std_LName.Size = new System.Drawing.Size(163, 43);
             this.Lbl_Std_LName.TabIndex = 48;
@@ -571,7 +587,7 @@
             // Txt_Std_LName
             // 
             this.Txt_Std_LName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Std_LName.Location = new System.Drawing.Point(25, 349);
+            this.Txt_Std_LName.Location = new System.Drawing.Point(25, 253);
             this.Txt_Std_LName.Name = "Txt_Std_LName";
             this.Txt_Std_LName.Size = new System.Drawing.Size(296, 49);
             this.Txt_Std_LName.TabIndex = 47;
@@ -579,7 +595,7 @@
             // Txt_Class_Lvl
             // 
             this.Txt_Class_Lvl.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Class_Lvl.Location = new System.Drawing.Point(25, 479);
+            this.Txt_Class_Lvl.Location = new System.Drawing.Point(25, 351);
             this.Txt_Class_Lvl.Name = "Txt_Class_Lvl";
             this.Txt_Class_Lvl.Size = new System.Drawing.Size(296, 49);
             this.Txt_Class_Lvl.TabIndex = 46;
@@ -588,7 +604,7 @@
             // 
             this.Lbl_Class_Lvl.AutoSize = true;
             this.Lbl_Class_Lvl.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Class_Lvl.Location = new System.Drawing.Point(17, 417);
+            this.Lbl_Class_Lvl.Location = new System.Drawing.Point(19, 305);
             this.Lbl_Class_Lvl.Name = "Lbl_Class_Lvl";
             this.Lbl_Class_Lvl.Size = new System.Drawing.Size(169, 43);
             this.Lbl_Class_Lvl.TabIndex = 45;
@@ -597,7 +613,7 @@
             // Txt_Std_ID
             // 
             this.Txt_Std_ID.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Std_ID.Location = new System.Drawing.Point(25, 76);
+            this.Txt_Std_ID.Location = new System.Drawing.Point(25, 57);
             this.Txt_Std_ID.Name = "Txt_Std_ID";
             this.Txt_Std_ID.Size = new System.Drawing.Size(296, 49);
             this.Txt_Std_ID.TabIndex = 42;
@@ -606,7 +622,7 @@
             // 
             this.Lbl_Std_ID.AutoSize = true;
             this.Lbl_Std_ID.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Std_ID.Location = new System.Drawing.Point(17, 30);
+            this.Lbl_Std_ID.Location = new System.Drawing.Point(19, 11);
             this.Lbl_Std_ID.Name = "Lbl_Std_ID";
             this.Lbl_Std_ID.Size = new System.Drawing.Size(163, 43);
             this.Lbl_Std_ID.TabIndex = 41;
@@ -616,7 +632,7 @@
             // 
             this.Lbl_Std_FName.AutoSize = true;
             this.Lbl_Std_FName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Std_FName.Location = new System.Drawing.Point(17, 155);
+            this.Lbl_Std_FName.Location = new System.Drawing.Point(17, 109);
             this.Lbl_Std_FName.Name = "Lbl_Std_FName";
             this.Lbl_Std_FName.Size = new System.Drawing.Size(165, 43);
             this.Lbl_Std_FName.TabIndex = 40;
@@ -625,7 +641,7 @@
             // Txt_Std_FName
             // 
             this.Txt_Std_FName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Std_FName.Location = new System.Drawing.Point(25, 210);
+            this.Txt_Std_FName.Location = new System.Drawing.Point(25, 155);
             this.Txt_Std_FName.Name = "Txt_Std_FName";
             this.Txt_Std_FName.Size = new System.Drawing.Size(296, 49);
             this.Txt_Std_FName.TabIndex = 39;
@@ -634,7 +650,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(345, 33);
+            this.label9.Location = new System.Drawing.Point(345, 11);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(201, 43);
             this.label9.TabIndex = 38;
@@ -644,7 +660,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(353, 76);
+            this.comboBox2.Location = new System.Drawing.Point(353, 57);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(631, 51);
             this.comboBox2.TabIndex = 37;
@@ -652,7 +668,7 @@
             // Btn_Delete_Std
             // 
             this.Btn_Delete_Std.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Delete_Std.Location = new System.Drawing.Point(688, 827);
+            this.Btn_Delete_Std.Location = new System.Drawing.Point(688, 690);
             this.Btn_Delete_Std.Name = "Btn_Delete_Std";
             this.Btn_Delete_Std.Size = new System.Drawing.Size(296, 149);
             this.Btn_Delete_Std.TabIndex = 36;
@@ -662,7 +678,7 @@
             // Btn_Modify_Std
             // 
             this.Btn_Modify_Std.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Modify_Std.Location = new System.Drawing.Point(353, 827);
+            this.Btn_Modify_Std.Location = new System.Drawing.Point(353, 690);
             this.Btn_Modify_Std.Name = "Btn_Modify_Std";
             this.Btn_Modify_Std.Size = new System.Drawing.Size(296, 149);
             this.Btn_Modify_Std.TabIndex = 35;
@@ -672,7 +688,7 @@
             // Btn_Add_Std
             // 
             this.Btn_Add_Std.Font = new System.Drawing.Font("Franklin Gothic Heavy", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Add_Std.Location = new System.Drawing.Point(25, 824);
+            this.Btn_Add_Std.Location = new System.Drawing.Point(25, 687);
             this.Btn_Add_Std.Name = "Btn_Add_Std";
             this.Btn_Add_Std.Size = new System.Drawing.Size(296, 149);
             this.Btn_Add_Std.TabIndex = 34;
@@ -691,9 +707,9 @@
             // Btn_Add_Tab
             // 
             this.Btn_Add_Tab.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Add_Tab.Location = new System.Drawing.Point(1294, 62);
+            this.Btn_Add_Tab.Location = new System.Drawing.Point(1150, 43);
             this.Btn_Add_Tab.Name = "Btn_Add_Tab";
-            this.Btn_Add_Tab.Size = new System.Drawing.Size(363, 200);
+            this.Btn_Add_Tab.Size = new System.Drawing.Size(323, 147);
             this.Btn_Add_Tab.TabIndex = 3;
             this.Btn_Add_Tab.Text = "Add New Tab";
             this.Btn_Add_Tab.UseVisualStyleBackColor = true;
@@ -702,9 +718,9 @@
             // Btn_Remove_Tab
             // 
             this.Btn_Remove_Tab.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Remove_Tab.Location = new System.Drawing.Point(1294, 324);
+            this.Btn_Remove_Tab.Location = new System.Drawing.Point(1150, 259);
             this.Btn_Remove_Tab.Name = "Btn_Remove_Tab";
-            this.Btn_Remove_Tab.Size = new System.Drawing.Size(363, 200);
+            this.Btn_Remove_Tab.Size = new System.Drawing.Size(323, 147);
             this.Btn_Remove_Tab.TabIndex = 4;
             this.Btn_Remove_Tab.Text = "Remove Tab";
             this.Btn_Remove_Tab.UseVisualStyleBackColor = true;
@@ -713,9 +729,9 @@
             // Btn_Remove_All_Tabs
             // 
             this.Btn_Remove_All_Tabs.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Remove_All_Tabs.Location = new System.Drawing.Point(1294, 595);
+            this.Btn_Remove_All_Tabs.Location = new System.Drawing.Point(1150, 495);
             this.Btn_Remove_All_Tabs.Name = "Btn_Remove_All_Tabs";
-            this.Btn_Remove_All_Tabs.Size = new System.Drawing.Size(363, 200);
+            this.Btn_Remove_All_Tabs.Size = new System.Drawing.Size(323, 147);
             this.Btn_Remove_All_Tabs.TabIndex = 5;
             this.Btn_Remove_All_Tabs.Text = "Remove All Tabs";
             this.Btn_Remove_All_Tabs.UseVisualStyleBackColor = true;
@@ -724,40 +740,21 @@
             // Btn_A_Log_Out
             // 
             this.Btn_A_Log_Out.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_A_Log_Out.Location = new System.Drawing.Point(1294, 851);
+            this.Btn_A_Log_Out.Location = new System.Drawing.Point(1150, 722);
             this.Btn_A_Log_Out.Name = "Btn_A_Log_Out";
-            this.Btn_A_Log_Out.Size = new System.Drawing.Size(363, 200);
+            this.Btn_A_Log_Out.Size = new System.Drawing.Size(323, 147);
             this.Btn_A_Log_Out.TabIndex = 6;
             this.Btn_A_Log_Out.Text = "Log Out";
             this.Btn_A_Log_Out.UseVisualStyleBackColor = true;
             this.Btn_A_Log_Out.Click += new System.EventHandler(this.Btn_A_Log_Out_Click);
             // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(25, 621);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(296, 49);
-            this.textBox3.TabIndex = 50;
-            // 
-            // Lbl_GPA
-            // 
-            this.Lbl_GPA.AutoSize = true;
-            this.Lbl_GPA.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_GPA.Location = new System.Drawing.Point(17, 559);
-            this.Lbl_GPA.Name = "Lbl_GPA";
-            this.Lbl_GPA.Size = new System.Drawing.Size(176, 43);
-            this.Lbl_GPA.TabIndex = 49;
-            this.Lbl_GPA.Text = "Overall GPA";
-            // 
             // AdminView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1709, 1099);
+            this.ClientSize = new System.Drawing.Size(1614, 908);
             this.Controls.Add(this.Btn_A_Log_Out);
             this.Controls.Add(this.Btn_Remove_All_Tabs);
             this.Controls.Add(this.Btn_Remove_Tab);
