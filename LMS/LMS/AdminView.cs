@@ -67,7 +67,7 @@ namespace LMS
         private void Add_Course_Button_Click(object sender, EventArgs e)
         {
             string cname = Txt_Course.Text;
-            Cb_Courses.Items.Add(cname);
+            Cmb_Courses.Items.Add(cname);
         }
 
         private void txt_Course_TextChanged(object sender, EventArgs e)
@@ -107,6 +107,61 @@ namespace LMS
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_Mode_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Students_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label44_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label37_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox19_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox18_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox20_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox21_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label45_Click(object sender, EventArgs e)
         {
 
         }

@@ -75,6 +75,22 @@
             this.Btn_C4_Add_Grade = new System.Windows.Forms.Button();
             this.Btn_P_Log_Out = new System.Windows.Forms.Button();
             this.PCalendar = new System.Windows.Forms.MonthCalendar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Lbl_O_C1_SName = new System.Windows.Forms.Label();
+            this.Lbl_O_C1_SGrade = new System.Windows.Forms.Label();
+            this.Lbl_O_C2_SGrade = new System.Windows.Forms.Label();
+            this.Lbl_O_C2_SName = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.Lbl_O_C3_SGrade = new System.Windows.Forms.Label();
+            this.Lbl_O_C3_SName = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.Lbl_O_C4_SGrade = new System.Windows.Forms.Label();
+            this.Lbl_O_C4_SName = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.Tab_Professor.SuspendLayout();
             this.Tab_Course1.SuspendLayout();
             this.Tab_Course2.SuspendLayout();
@@ -101,6 +117,10 @@
             // Tab_Course1
             // 
             this.Tab_Course1.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course1.Controls.Add(this.Lbl_O_C1_SGrade);
+            this.Tab_Course1.Controls.Add(this.Lbl_O_C1_SName);
+            this.Tab_Course1.Controls.Add(this.label2);
+            this.Tab_Course1.Controls.Add(this.label1);
             this.Tab_Course1.Controls.Add(this.Txt_C1_Grade);
             this.Tab_Course1.Controls.Add(this.Lbl_C1_SGrade);
             this.Tab_Course1.Controls.Add(this.Txt_C1_SName);
@@ -214,6 +234,10 @@
             // Tab_Course2
             // 
             this.Tab_Course2.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course2.Controls.Add(this.Lbl_O_C2_SGrade);
+            this.Tab_Course2.Controls.Add(this.Lbl_O_C2_SName);
+            this.Tab_Course2.Controls.Add(this.label9);
+            this.Tab_Course2.Controls.Add(this.label10);
             this.Tab_Course2.Controls.Add(this.Txt_C2_Grade);
             this.Tab_Course2.Controls.Add(this.Lbl_C2_Grade);
             this.Tab_Course2.Controls.Add(this.Txt_C2_SName);
@@ -328,6 +352,10 @@
             // Tab_Course3
             // 
             this.Tab_Course3.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course3.Controls.Add(this.Lbl_O_C3_SGrade);
+            this.Tab_Course3.Controls.Add(this.Lbl_O_C3_SName);
+            this.Tab_Course3.Controls.Add(this.label13);
+            this.Tab_Course3.Controls.Add(this.label14);
             this.Tab_Course3.Controls.Add(this.Txt_C3_Grade);
             this.Tab_Course3.Controls.Add(this.Lbl_C3_Grade);
             this.Tab_Course3.Controls.Add(this.Txt_C3_SName);
@@ -441,6 +469,10 @@
             // Tab_Course4
             // 
             this.Tab_Course4.BackColor = System.Drawing.Color.LightGray;
+            this.Tab_Course4.Controls.Add(this.Lbl_O_C4_SGrade);
+            this.Tab_Course4.Controls.Add(this.Lbl_O_C4_SName);
+            this.Tab_Course4.Controls.Add(this.label17);
+            this.Tab_Course4.Controls.Add(this.label18);
             this.Tab_Course4.Controls.Add(this.Txt_C4_Grade);
             this.Tab_Course4.Controls.Add(this.Lbl_C4_Grade);
             this.Tab_Course4.Controls.Add(this.Txt_C4_SName);
@@ -555,7 +587,7 @@
             // 
             this.Btn_P_Log_Out.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Btn_P_Log_Out.Font = new System.Drawing.Font("Franklin Gothic Heavy", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_P_Log_Out.Location = new System.Drawing.Point(1163, 703);
+            this.Btn_P_Log_Out.Location = new System.Drawing.Point(1163, 749);
             this.Btn_P_Log_Out.Name = "Btn_P_Log_Out";
             this.Btn_P_Log_Out.Size = new System.Drawing.Size(323, 147);
             this.Btn_P_Log_Out.TabIndex = 7;
@@ -574,6 +606,166 @@
             this.PCalendar.TabIndex = 17;
             this.PCalendar.TitleBackColor = System.Drawing.Color.LightGray;
             this.PCalendar.TrailingForeColor = System.Drawing.SystemColors.Control;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(377, 205);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 43);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "Student: ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(377, 304);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 43);
+            this.label2.TabIndex = 47;
+            this.label2.Text = "Grade: ";
+            // 
+            // Lbl_O_C1_SName
+            // 
+            this.Lbl_O_C1_SName.AutoSize = true;
+            this.Lbl_O_C1_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C1_SName.Location = new System.Drawing.Point(544, 208);
+            this.Lbl_O_C1_SName.Name = "Lbl_O_C1_SName";
+            this.Lbl_O_C1_SName.Size = new System.Drawing.Size(213, 43);
+            this.Lbl_O_C1_SName.TabIndex = 48;
+            this.Lbl_O_C1_SName.Text = "Student Name";
+            // 
+            // Lbl_O_C1_SGrade
+            // 
+            this.Lbl_O_C1_SGrade.AutoSize = true;
+            this.Lbl_O_C1_SGrade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C1_SGrade.Location = new System.Drawing.Point(544, 304);
+            this.Lbl_O_C1_SGrade.Name = "Lbl_O_C1_SGrade";
+            this.Lbl_O_C1_SGrade.Size = new System.Drawing.Size(215, 43);
+            this.Lbl_O_C1_SGrade.TabIndex = 49;
+            this.Lbl_O_C1_SGrade.Text = "Student Grade";
+            // 
+            // Lbl_O_C2_SGrade
+            // 
+            this.Lbl_O_C2_SGrade.AutoSize = true;
+            this.Lbl_O_C2_SGrade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C2_SGrade.Location = new System.Drawing.Point(544, 304);
+            this.Lbl_O_C2_SGrade.Name = "Lbl_O_C2_SGrade";
+            this.Lbl_O_C2_SGrade.Size = new System.Drawing.Size(215, 43);
+            this.Lbl_O_C2_SGrade.TabIndex = 53;
+            this.Lbl_O_C2_SGrade.Text = "Student Grade";
+            // 
+            // Lbl_O_C2_SName
+            // 
+            this.Lbl_O_C2_SName.AutoSize = true;
+            this.Lbl_O_C2_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C2_SName.Location = new System.Drawing.Point(544, 208);
+            this.Lbl_O_C2_SName.Name = "Lbl_O_C2_SName";
+            this.Lbl_O_C2_SName.Size = new System.Drawing.Size(213, 43);
+            this.Lbl_O_C2_SName.TabIndex = 52;
+            this.Lbl_O_C2_SName.Text = "Student Name";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(377, 304);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(117, 43);
+            this.label9.TabIndex = 51;
+            this.label9.Text = "Grade: ";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(377, 205);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(142, 43);
+            this.label10.TabIndex = 50;
+            this.label10.Text = "Student: ";
+            // 
+            // Lbl_O_C3_SGrade
+            // 
+            this.Lbl_O_C3_SGrade.AutoSize = true;
+            this.Lbl_O_C3_SGrade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C3_SGrade.Location = new System.Drawing.Point(544, 304);
+            this.Lbl_O_C3_SGrade.Name = "Lbl_O_C3_SGrade";
+            this.Lbl_O_C3_SGrade.Size = new System.Drawing.Size(215, 43);
+            this.Lbl_O_C3_SGrade.TabIndex = 53;
+            this.Lbl_O_C3_SGrade.Text = "Student Grade";
+            // 
+            // Lbl_O_C3_SName
+            // 
+            this.Lbl_O_C3_SName.AutoSize = true;
+            this.Lbl_O_C3_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C3_SName.Location = new System.Drawing.Point(544, 208);
+            this.Lbl_O_C3_SName.Name = "Lbl_O_C3_SName";
+            this.Lbl_O_C3_SName.Size = new System.Drawing.Size(213, 43);
+            this.Lbl_O_C3_SName.TabIndex = 52;
+            this.Lbl_O_C3_SName.Text = "Student Name";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(377, 304);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(117, 43);
+            this.label13.TabIndex = 51;
+            this.label13.Text = "Grade: ";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(377, 205);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(142, 43);
+            this.label14.TabIndex = 50;
+            this.label14.Text = "Student: ";
+            // 
+            // Lbl_O_C4_SGrade
+            // 
+            this.Lbl_O_C4_SGrade.AutoSize = true;
+            this.Lbl_O_C4_SGrade.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C4_SGrade.Location = new System.Drawing.Point(544, 304);
+            this.Lbl_O_C4_SGrade.Name = "Lbl_O_C4_SGrade";
+            this.Lbl_O_C4_SGrade.Size = new System.Drawing.Size(215, 43);
+            this.Lbl_O_C4_SGrade.TabIndex = 53;
+            this.Lbl_O_C4_SGrade.Text = "Student Grade";
+            // 
+            // Lbl_O_C4_SName
+            // 
+            this.Lbl_O_C4_SName.AutoSize = true;
+            this.Lbl_O_C4_SName.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_O_C4_SName.Location = new System.Drawing.Point(544, 208);
+            this.Lbl_O_C4_SName.Name = "Lbl_O_C4_SName";
+            this.Lbl_O_C4_SName.Size = new System.Drawing.Size(213, 43);
+            this.Lbl_O_C4_SName.TabIndex = 52;
+            this.Lbl_O_C4_SName.Text = "Student Name";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(377, 304);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(117, 43);
+            this.label17.TabIndex = 51;
+            this.label17.Text = "Grade: ";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(377, 205);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(142, 43);
+            this.label18.TabIndex = 50;
+            this.label18.Text = "Student: ";
             // 
             // ProfessorView
             // 
@@ -651,5 +843,21 @@
         private System.Windows.Forms.Button Btn_C4_Modify_Grade;
         private System.Windows.Forms.Button Btn_C4_Add_Grade;
         private System.Windows.Forms.MonthCalendar PCalendar;
+        private System.Windows.Forms.Label Lbl_O_C1_SGrade;
+        private System.Windows.Forms.Label Lbl_O_C1_SName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Lbl_O_C2_SGrade;
+        private System.Windows.Forms.Label Lbl_O_C2_SName;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label Lbl_O_C3_SGrade;
+        private System.Windows.Forms.Label Lbl_O_C3_SName;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label Lbl_O_C4_SGrade;
+        private System.Windows.Forms.Label Lbl_O_C4_SName;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
     }
 }
